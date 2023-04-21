@@ -1,6 +1,8 @@
 window.onload = function(){
   //hide the preloader
   $('#preloader').fadeOut(2500);
+
+  console.log(Base_url, 'Base_url');
 }
 $(document).ready(function () {
   getCommunity();

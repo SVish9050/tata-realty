@@ -1,5 +1,8 @@
 <script type="text/javascript">
-    const Base_url = "<%= url %>";
+    let Base_url = "<%= url %>";
+    console.log(Base_url, 'pre base url')
+    Base_url = 'https://realty.quadrafort.com/';
+    console.log(Base_url, 'after base url')
     let userDetailsFromSessions = '<%= userDetail %>';
     let userDetails = '';
     if (!userDetailsFromSessions) {
